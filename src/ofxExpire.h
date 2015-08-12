@@ -38,7 +38,7 @@ public:
             ofSystemAlertDialog(message);
             
             // Destructive expiration only works on OSX, for now
-            #ifdef __APPLE__
+            #ifdef TARGET_OSX 
             string s;
             if (howAgressive == binary) {
                 s = ofSystem("ls -a ../../../");
