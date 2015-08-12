@@ -52,7 +52,7 @@ If your app has somehow changed its system working directory, or if there is an 
 You have been warned!
      
 Ivaylo    
-@ivaylopg
+[@ivaylopg](https://twitter.com/ivaylopg)
 
-[www.luxloop.com](www.luxloop.com)    
-@luxloop
+[www.luxloop.com](http://www.luxloop.com)    
+[@luxloop](https://twitter.com/luxloop)
