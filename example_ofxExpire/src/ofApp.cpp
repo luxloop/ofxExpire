@@ -11,7 +11,7 @@ void ofApp::setup(){
     */
     
     
-    ofxExpire e(august, 11, 2015, " ", binary);
+    ofxExpire e(august, 11, 2015);
     
     
     //ofxExpire e(august, 11, 2015, "Custom Alert Message");
