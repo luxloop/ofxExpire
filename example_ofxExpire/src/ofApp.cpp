@@ -2,7 +2,12 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+    // Check in setup() if app is "expired"
+    ofxExpire e(august, 11, 2015);
+    // I prefer the above syntax, but some people think either of the below
+    // declarations is clearer. They all behave the same in this case.
+    //      ofxExpire e = ofxExpire(13);
+    //      ofxExpire(13);
 }
 
 //--------------------------------------------------------------
