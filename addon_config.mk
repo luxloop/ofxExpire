@@ -19,6 +19,6 @@ meta:
 	ADDON_DESCRIPTION = Stops app from running, or completely deletes it, after a given expiration date
 	ADDON_AUTHOR = Luxloop - Ivaylo Getov
 	ADDON_TAGS = "expire" "expiration" "self destruct" "app" "timer"
-	ADDON_URL = 
+	ADDON_URL = https://github.com/luxloop/ofxExpire
 
 common:
