@@ -20,6 +20,8 @@ Month names are predefined, so you can't enter "smarch." [Lousy smarch weather](
 
 	ofxExpire e(august, 11, 2015);
 
+It's using `ofGetMonth()` etc. to do the actual checking, so I imagine that if the computer's system time and date is incorrect, you will run into problems.
+
 I prefer the above syntax, but some people think either of the below declarations is clearer. They all *behave* the same in this case, although they are technically different. Just FYI if it helps you understand what's going on.
 
 	ofxExpire e = ofxExpire(august, 11, 2015);
@@ -32,9 +34,9 @@ This can be overridden:
 
 
 #### Aggressive Mode ####
-This only works in OS X for now. I don't plan on implementing it for other platforms, but feel free if you want to have a crack.
+This last feature only works in OS X for now. I don't plan on implementing it for other platforms, but feel free if you want to have a crack.
 
-I debated whether or not to even include this feature, but I can definitely see it being useful. JUST BE CAREFUL! Look at the source code and see what it actually does.
+I debated whether or not to even include this, but I can definitely see it being useful. JUST BE CAREFUL! Look at the source code and see what it actually does.
 
 In OS X, you can specify to actually delete the app if it is run after the expiration date. On other systems this will do nothing.
 
