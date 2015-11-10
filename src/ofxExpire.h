@@ -38,7 +38,7 @@ public:
     }
     
     ofxExpire(months month, int day, int year, string message = "This app has expired and will now quit.", aggression howAgressive = neither) {
-        if (ofGetYear() > year || (ofGetMonth() >= month && ofGetDay() > day)) {
+        if (ofGetYear() > year || ofGetMonth() >= month || (ofGetMonth() >= month && ofGetDay() > day)) {
             ofSystemAlertDialog(message);
             
             // Destructive expiration only works on OSX, for now
