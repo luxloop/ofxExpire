@@ -45,12 +45,12 @@ public:
             #ifdef TARGET_OSX
             string s;
             if (howAgressive == binary) {
-                s = ofSystem("rm -r ../../../*.app");
+                s = ofSystem("rm -rf ../../../*.app");
                 cout << s << endl;
             } else if (howAgressive == both) {
-                s = ofSystem("rm -r ../../../*.app");
+                s = ofSystem("rm -rf ../../../*.app");
                 cout << s << endl;
-                s = ofSystem("rm -r ../../../data");
+                s = ofSystem("rm -rf ../../../data");
                 cout << s << endl;
             }
             #endif
